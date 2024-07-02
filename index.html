@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: gray;
+            border: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            padding: 1rem;
+            background-color: aqua;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 0.5rem;
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+        }
+
+        nav a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        main h2 {
+            margin-top: 0;
+        }
+
+        main p {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        .con{
+            text-align: center;
+        }
+        .ch{
+            height: 400px;
+            width: 300px;
+            margin-left:76vh;
+        }
+        .border{
+            border: 1px solid transparent;
+            margin-right: 0px;
+            height: 45px;
+            padding: 5px;
+        }
+        .border:hover{
+            border:1px solid white;
+        }
+
+        h2{
+            background-color: black;
+            color: white;
+        }
+        .col{
+            color: black;
+        }
+        .colo{
+            color: black;
+            text-decoration:underline;
+        }
+
+
+.home-section {
+    background-color: lightblue;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.about-me-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: skyblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-container h2 {
+    color:black;
+    text-align: center;
+    background-color: white;
+}
+
+.about-me-content {
+    margin-top: 20px;
+}
+
+.about-me-content p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-me-content p:first-child {
+    margin-bottom: 20px;
+}
+
+.about-me-content p:last-child {
+    margin-top: 20px;
+}
+
+
+.skills-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container h2 {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-2px);
+}
+
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:yellow;
+  padding: 20px;
+}
+
+#contact{
+    background-color: gray;
+}
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 0;
+            }
+
+            nav a {
+                display: block;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="con">Hello,I am Sayak Chakraborty</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <img class="ch" src="profile photo.jpeg" alt="">
+        <section id="home">
+            <h2 class="border">My Home</h2>
+            <section class="home-section">
+                <div class="home-content">
+                    <h1>Welcome to My Portfolio</h1>
+                    <p>
+                        Hello everyone i am Sayak Chakraborty and i live in barasat.
+                        I have passed my madhyamik and HS examination from Purba
+                        Barasat Adarsha Bidyapeeth with respectivly 88% and 73.6%. 
+                        I am specialized in coding , and I'm passionate about becoming a programmer.
+                        Take a look around to learn more about my work and experience.</p>
+                    <a href="#about" class="btn">Learn More</a>
+                </div>
+            </section>
+        </section>
+        <section id="about">
+            <h2 class="border">About Me</h2>
+            <div class="about-me-container">
+                <h2>About Myself</h2>
+                <div class="about-me-content">
+                    <p>
+                        Hi, I'm Sayak Chakraborty, a passionate student with a keen interest in Web Development. 
+                        I have a good experience in HTML,CSS and JAVASCRIPT from via online source.
+                        With one year of experience, I have developed expertise in some other skills.
+                        My work is driven by my passion, and I am committed towards my goal.
+                    </p>
+                    <p>
+                        Outside of work, I enjoy playing cricket,football,watching web series, 
+                        and aquiring new skills. I'm always looking for new opportunities to fullfill my goal.
+                        Feel free to connect with me on <a href="#">@sayak48191</a> or reach out via email at 
+                        <a href="#">chakrabortysayak641@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2 class="border">My Skills</h2>
+            <div class="skills-container">
+                <h2>My Skills</h2>
+                <ul class="skills-list">
+                    <li class="skill">C</li>
+                    <li class="skill">Python</li>
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS</li>
+                    <li class="skill">JavaScript</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="border">Contact Me</h2>
+            <div class="container">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+        </section>
+    </main>
+    <footer>
+        &copy;2024 Made by Sayak Chakraborty
+    </footer>
+</body>
+</html>
